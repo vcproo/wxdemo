@@ -1,0 +1,19 @@
+/* pages/cardview/cardview.wxss */
+page{
+  background-color: #efeff4;
+  
+}
+.tui-card1 {
+  font-size: 28rpx;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  border-radius: 2px;
+  background-color: #fff;
+  background-clip: padding-box;
+  box-shadow: 0 1px 2px rgba(0,0,0,.3);
+  float: left;
+}
+.tui-card-content1 {
+  line-height: 55rpx;
+}

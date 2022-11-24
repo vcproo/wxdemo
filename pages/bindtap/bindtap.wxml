@@ -1,0 +1,15 @@
+<!--pages/button/button.wxml-->
+<view class="tui-btn-group">
+  <view class="tui-btn-content">
+    <button size="default" bindtap="continuity" data-index="{{val1}}" hover-class="other-button-hover"> 不限制连续点击 </button>
+  </view>
+  <view class="tui-btn-content">
+  <input type="text" value="{{val1}}"></input>
+</view>
+  <view class="tui-btn-content">
+    <button size="default" bindtap="{{buttonClicked?'':'noContinuity'}}" data-index="{{val2}}" hover-class="other-button-hover"> 限制连续点击 </button>
+  </view>
+  <view class="tui-btn-content">
+  <input type="text" value="{{val2}}"></input>
+</view>
+</view>

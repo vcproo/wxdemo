@@ -1,0 +1,23 @@
+<!--pages/cardview/cardview.wxml-->
+<!-- <view class="sbgh_2c1">输入需要加密的文本：<input type="text" placeholder-style='color:#666666;' value=""
+    bindinput='text'></input></view> -->
+
+<view class="tui-card1">
+  <button size="default" bindtap="encode" hover-class="other-button-hover"> 输入需要加密的文本： </button>
+  <view class="tui-card-content1">
+    <textarea name="" id="" cols="30" rows="10" bindinput='text'></textarea>
+  </view>
+</view>
+<view class="tui-card1">
+  <button size="default" bindtap="encode" hover-class="other-button-hover"> 点击加密 </button>
+  <view class="tui-card-content1">
+    <textarea name="" id="" cols="30" rows="10" value=" {{encodeStr}}"></textarea>
+  </view>
+</view>
+<view class="tui-card1">
+  <button size="default" bindtap="decode" hover-class="other-button-hover"> 点击解密 </button>
+  <view class="tui-card-content1">
+    <textarea name="" id="" cols="30" rows="10" value=" {{decodeStr}}"> </textarea>
+
+  </view>
+</view>
